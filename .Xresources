@@ -4,52 +4,19 @@
 #define highlightColor 	#f2b4a7
 #define backgroundColor	#2c123b
 
-*.font:	xft:Fantasque Sans Mono:style=Regular:pixelsize=15,\
+URxvt.font:xft:Fantasque Sans Mono:style=Regular:pixelsize=15,\
 	xft:FontAwesome5Free:pixelsize=15,\
 	xft:FontAwesome5FreeSolid:pixelsize=15,\
 	xft:FontAwesome5Brands:pixelsize=15
 
 URxvt.scrollBar: false
+URxvt.depth: 32
+URxvt.transparent: false
+URxvt.shading: 35
 
-*.highlightColor: highlightColor
-*.highlightTextColor: highlightColor
+URxvt.highlightColor: highlightColor
+URxvt.highlightTextColor: highlightColor
 
-*.externalBorder: 0
-*.internalBorder: 20
-*.cursorColor: highlightColor
-
-
-*.foreground: textColor
-*.background: backgroundColor
-
- /* Black */
-URxvt*color0:  #1e1e1e
-URxvt*color8:  #4d4d4d
-
- /* Red (properties [usually after colons])*/
-URxvt*color1:  #EF847E
-URxvt*color9:  #F2CBC9
-
- /* Green */
-URxvt*color2:  #86C9FD
-URxvt*color10: #78D1E3
-
- /* Yellow */
-URxvt*color3:  #FCD662
-URxvt*color11: #FCF562
-
- /* Blue (comments) */
-URxvt*color4:  #A15DF5 
-URxvt*color12: #CBA8F7
-
- /* Magenta */
-URxvt*color5:  #FAE543
-URxvt*color13: #FBEE8F 
-
- /* Cyan (neofetch symbol) */
-URxvt*color6:  #FD3D4D
-URxvt*color14: #E34B36
-
- /* White */
-URxvt*color7:  #DBC8DE
-URxvt*color15: #F2EFF4
+URxvt.externalBorder: 0 
+URxvt.internalBorder: 20
+URxvt.cursorColor: highlightColor
